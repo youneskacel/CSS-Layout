@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    width : 100vw;
+}
+.wholeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    width : 100vw;
+}
+.nav{
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    top : 0px;
+    left : 0vw;
+    width : 100vw;
+    height : 10vh;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    z-index: 5;
+
+}
+.navbar{
+    width : 70vw;
+    height : 8vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftnav img{
+    width : 18vw;
+    height:  6vh;
+}
+
+.rightnav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width : 20vw;
+    align-items: center;
+    height : 8vh;
+    color : #ABABAB;
+}
+
+.rightnav li:hover {
+      cursor: pointer;
+      color : #00BFA5;
+}
+
+#activ{
+    color : #00BFA5;
+}
+
+.logo{
+    margin-top: 110px;
+}
+
+.mainTitle{
+    font-size: 34px;
+    padding-top: 20px;
+    color :  #00BFA5 ;
+    font-weight :lighter;
+}
+.paragCards{
+    display: flex;
+    justify-content: space-around;
+    width : 80vw;
+    padding-top: 40px;
+    color :#747474 ;
+}
+
+.leftCard{
+    width : 35vw;
+}
+.rightCard{
+    width : 35vw;
+}
+
+.forCards{
+    width : 75vw;
+    color: white;
+}
+.Card{
+    border-radius: 10px;
+    height : 50vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Card img{
+    width : 35px;
+    height : 35px;
+}
+.Card:hover {
+    -webkit-filter: brightness(110%); }
+.Card h4{
+    margin-top : 10px;
+}
+.Card p {
+    font-size: 22px;
+    font-weight: lighter;
+}
+.Card a{
+    color: white;
+    margin-top: auto;
+    font-size: 18px;
+}
+
+#card1{
+    background-color: #00CCB1;
+}
+#card2{
+    background-color: #3D83DF;
+}
+#card3{
+   background-color: #1B2734;
+}
+
+#GCpar{
+    color :  #00BFA5 ;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+#logoGrid{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#logoGrid li{
+    margin : 10px 15px;
+}
+
+#logoGrid li svg{
+    width : 120px;
+    filter :invert(0.7)
+}
+#logoGrid li img{
+    
+    filter :invert(0.7);
+    filter :sepia(0.8)
+}
+
+#logoGrid li svg:hover{
+    color :  #00BFA5 ;
+    filter :invert(0)
+}
+#logoGrid li img:hover{
+    
+    filter :invert(0);
+    filter :sepia(0)
+}
+
+.part3{
+    background-color: #DAF7F6;
+    width : 100vw!important;
+    height : 100vh;
+}
+.p3card{
+    color:black;
+    margin : 5px 0px;
+    border : 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 10px;
+    background-color: white;
+    width : 230px;
+    height : 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 10px 7px;
+
+}
+.p3card p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-align: center;
+    color: #ABABAB;
+}
+.p3card h3{
+    margin-top: 18px;
+    color : #00CCBC;
+    text-align: center;
+}
+.p3left{
+    display: flex;
+    justify-content: center;
+    
+    position :relative;
+    height : 100vh;
+}
+.p3left img{
+    height : 80%;
+    width : 80%;
+    position: absolute;
+    left : -100px;
+    bottom : -100px;
+    z-index: 1;
+}
+.p3presentation{
+    width:30vw;
+    margin-left: 10%;
+    margin-top : 10px;
+    align-self: start;
+    align-content: flex-start;
+}
+
+.p3presentation h4{
+    color : #00CCB1;
+    font-size: 36px;
+    font-weight: 200;
+}
+.p3presentation p{
+    color : #ABABAB;
+    margin-top: 25px;
+    font-size: 0.9em;
+}
+
+.part4{
+    background-color: white;
+    z-index : 2 ;
+    width : 100vw;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p4presentation{
+    width : 30vw;
+    text-align: center;
+}
+
+.p4presentation h3{
+    color :#00CCB1 ;
+}
+
+.p4presentation p{
+    color :#747474 ;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.citycard{
+    height : 52vh;
+    border : 1px solid rgba(102, 102, 102, 0.103);
+    border-radius: 10px;
+}
+.citycard img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.citycard button{
+    border : 0;
+    width : 130px;
+    height : 30px;
+    border-radius: 4px;
+    background-color: #1662C6;
+    color : white;
+    font-size: 0.7em;
+}
+.citycard:hover{
+    box-shadow: 2px 0px 17px -5px rgba(0,0,0,0.75);
+}
+
+.cityname{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height : 10vh;
+    color : #747474;
+}
+
+.citywrapper{
+    margin-top: 60px;
+    width : 80vw;
+    display : grid;
+    grid-template-columns: 23vw 23vw 23vw;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.lastpart{
+    margin-top: 110px;
+    text-align: center;
+    
+}
+
+.lastpart button{
+    border : 0;
+    margin-top: 20px;
+    margin-bottom : 80px;
+    border-radius: 4px;
+    background-color: #1662C6;
+    color : white;
+    height : 40px;
+    width : 300px;
+}
+
+.footer{
+    font-size: 0.8rem;
+    text-align : center;
+    color : #747474;
+    border-top: 1px solid rgba(128, 128, 128, 0.219);
+    width : 100vw;
+    padding-top: 30px;
+}
